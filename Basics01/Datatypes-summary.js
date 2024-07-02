@@ -34,3 +34,25 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 
+// Stack memory (Primitive), Heap memory (Non-primitive)
+
+let myWebsitename = "steetclothes.com"
+anothername = "Mensfashion.com"
+
+console.log(anothername);
+console.log(myWebsitename);
+
+let userOne = {
+    email: "Tamta@gmail.com",
+    upi: "Tamta@ybl"
+
+}
+
+ let userTwo = userOne
+
+ userTwo.email = "rohit@gmail.com"
+
+console.log(userOne.email);
+ console.log(userTwo.email);
+
+ 
